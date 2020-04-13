@@ -60,7 +60,7 @@ for row in range(0,len(test_x)):
         prod_0 *= probabilities[0][feature][test_x[feature].iloc[row]]
         prod_1 *= probabilities[1][feature][test_x[feature].iloc[row]]
         
-        #Predict the outcome
+        #Predict the outcomew
         if prod_0 > prod_1:
             predicted.append(0)
         else:
